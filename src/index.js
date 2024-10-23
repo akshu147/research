@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import {createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Form from './pages/Form';
+import Thanks from './pages/Thanks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const routes = createBrowserRouter([
+  {
+    path:"/",
+    element:<Form/>
+  },
+  {
+    path:"/thank-you",
+    element:<Thanks/>
+  }
+])
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={routes}>
+
+    </RouterProvider>
+    
   </React.StrictMode>
 );
 

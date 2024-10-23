@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
-import bighazard from './images/Biohazard_symbol.svg.png'
-import radiation from './images/Radiation-Symbol-PNG-Transparent-Image.png'
+import bighazard from "../images/Biohazard_symbol.svg.png"
+import radiation from '../images/Radiation-Symbol-PNG-Transparent-Image.png'
 import axios from 'axios'
+import Cookies from 'js-cookie'
+import Footerline from './Footerline'
 const url =  process.env.REACT_APP_API_URL;
 
 
-const App = () => {
+const Form = () => {
     const [formdata, setformdata] = useState({})
     const addData = async(e) => {
-        e.preventDefault()
+        // e.preventDefault()
         const question1 = e.target.ques1.value
         const question2 = e.target.ques2.value
         const question3 = e.target.ques3.value
@@ -50,6 +52,8 @@ const App = () => {
         try {
             console.log(url)
             const responce = await axios.post(`${url}/api/formdata/form`, formdata)
+            if(responce.status!==200) return alert("something is wrong about server")
+    
             console.log(responce)
 
         }
@@ -57,8 +61,7 @@ const App = () => {
             console.log("server error")
         }
 
-
-       
+        Cookies.set("staff", JSON.stringify(formdata.name))
     }
 
 
@@ -471,7 +474,7 @@ neoplastic drugs, which of the following nursing intervention should be implemen
                         </ul>
                     </div>
 
-                    <fieldset className='border-[3px] border-black p-[10px_20px] rounded-[10px] bg-black text-white m-[20px_10px] sm:m-[20px_20px] text-[15px] sm:text-[20px]'>
+                    <fieldset className='border-[3px] border-black p-[10px_20px] sm:p-[10px_50px] rounded-[10px] bg-black text-white m-[20px_10px] sm:m-[20px_20px] text-[15px] sm:text-[20px]'>
                         <legend className='bg-black text-white p-[7px_10px] rounded-[10px]'>Lorem</legend>
                         <p className='leading-10'>I (respondent’s name)____________________ hereby give my permission to MUSKAN, VIVEK,
                             BHARAT, YASHSHVINI,  ZEESHAN to allow me to respond to questionnaire and quote my responses
@@ -481,7 +484,8 @@ neoplastic drugs, which of the following nursing intervention should be implemen
                         </p>
                         <p className='pt-[20px]'> I hereby give my permission in form of signature below:</p>
 
-                        <p className='mt-[100px]'><span>Date-</span><input name='date' onChange={(e)=>{setformdata({...formdata, date:e.target.value})}} className='text-white bg-transparent border rounded-[10px] ps-[10px] ms-[10px]' type="date" /></p>
+                        <p className='m-[100px_50px] flex'><span>Date-</span><input name='date' onChange={(e)=>{setformdata({...formdata, date:e.target.value})}} className='text-white bg-transparent border rounded-[10px] ps-[10px] ms-[10px]' type="date" /></p>
+                        <Footerline/>
                     </fieldset>
                     <button className='block m-[10px_auto] bg-blue-500 text-white p-[7px_20px] rounded-[10px]' type='submit'>Submit</button>
                 </form>
@@ -489,4 +493,4 @@ neoplastic drugs, which of the following nursing intervention should be implemen
         </>
     )
 }
-export default App
+export default Form
