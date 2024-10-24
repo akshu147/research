@@ -64,7 +64,7 @@ const Form = () => {
         }
 
     }
-
+console.log(formdata)
 
     return (
         <>
@@ -173,10 +173,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>7.</code> <input className='bg-transparent w-full font-bold hidden' type="text" name="ques8" defaultValue="Q.8 Average hospital waste produced per bed per day in Government Hospital? " />Average hospital waste produced per bed per day in Government Hospital? </div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.7 a" /><span className='px-[10px]'>1.5-2.0 Kg</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.7 b" /><span className='px-[10px]'>0.5-1.0 kg</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.7 c" /> <span className='px-[10px]'>0.5-3.0 kg</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.7 d" /><span className='px-[10px]'>0.5-4.0 kg</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.7 a" /><span className='px-[10px]'>1.5-2.0 Kg</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.7 b" /><span className='px-[10px]'>0.5-1.0 kg</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.7 c" /> <span className='px-[10px]'>0.5-3.0 kg</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.7 d" /><span className='px-[10px]'>0.5-4.0 kg</span></li>
                         </ul>
 
                     </div>
@@ -186,10 +186,10 @@ const Form = () => {
                             handling) rules 1998 comes under the
                             act. </div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.8 a" /><span className='px-[10px]'>Environmental Protection Act 1986</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.8 b" /><span className='px-[10px]'>ESI act 1994</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.8 c" /><span className='px-[10px]'>Labour Act 1948</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans7: e.target.value }) }} name='ans7' value="Q.8 d" /><span className='px-[10px]'>National Health Programme 1983</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.8 a" /><span className='px-[10px]'>Environmental Protection Act 1986</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.8 b" /><span className='px-[10px]'>ESI act 1994</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.8 c" /><span className='px-[10px]'>Labour Act 1948</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans8: e.target.value }) }} name='ans8' value="Q.8 d" /><span className='px-[10px]'>National Health Programme 1983</span></li>
                         </ul>
 
                     </div>
@@ -212,10 +212,10 @@ const Form = () => {
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>10.</code> <input className='bg-transparent w-full font-bold hidden' type="text" name="ques13" /> Identify the symbol shown in picture:</div>
                         <div className='flex justify-between items-center'>
                             <ul className='leading-8'>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.10 a" /><span className='px-[10px]'>Bio hazard</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.10 b" /><span className='px-[10px]'>Radiological hazards</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.10 c" /> <span className='px-[10px]'>Cytotoxic hazards</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.10 d" /><span className='px-[10px]'>Family planning</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} name='ans10' value="Q.10 a" /><span className='px-[10px]'>Bio hazard</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} name='ans10' value="Q.10 b" /><span className='px-[10px]'>Radiological hazards</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} name='ans10' value="Q.10 c" /> <span className='px-[10px]'>Cytotoxic hazards</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} name='ans10' value="Q.10 d" /><span className='px-[10px]'>Family planning</span></li>
                             </ul>
                             <img className='border-[2px] border-black rounded-[20px] p-[10px]' width="80px" src={bighazard} alt="" />
                         </div>
@@ -225,10 +225,10 @@ const Form = () => {
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>11.</code> <input className='bg-transparent w-full font-bold hidden' type="text" name="ques14" defaultValue="Q.14 Identify the symbol shown in picture:  " /> Identify the symbol shown in picture:  </div>
                         <div className='flex justify-between items-center'>
                             <ul className='leading-8'>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} value="Q.11 a" /><span className='px-[10px]'>Bio-Hazard</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} value="Q.11 b" /><span className='px-[10px]'>Radiological hazards</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} value="Q.11 c" /> <span className='px-[10px]'>Cytotoxic hazards</span></li>
-                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} value="Q.11 d" /><span className='px-[10px]'>Radiation hazards</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} name='ans11' value="Q.11 a" /><span className='px-[10px]'>Bio-Hazard</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} name='ans11' value="Q.11 b" /><span className='px-[10px]'>Radiological hazards</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} name='ans11' value="Q.11 c" /> <span className='px-[10px]'>Cytotoxic hazards</span></li>
+                                <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} name='ans11' value="Q.11 d" /><span className='px-[10px]'>Radiation hazards</span></li>
                             </ul>
                             <img className='border-[2px] border-black rounded-[20px] p-[10px]' width="80px" src={radiation} alt="" />
 
@@ -243,10 +243,10 @@ const Form = () => {
                             regarding biomedical waste
                             management are true except, </div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} value="Q.12 a" /><span className='px-[10px]'>Human anatomical waste is thrown in yellow bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} value="Q.12 b" /><span className='px-[10px]'>Blue bag waste is disposed in landfill</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} value="Q.12 c" /> <span className='px-[10px]'>Incineration ash is discarded in black bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans10: e.target.value }) }} value="Q.12 d" /><span className='px-[10px]'>Material in red bag could be a source of contamination</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans12: e.target.value }) }} name='ans12' value="Q.12 a" /><span className='px-[10px]'>Human anatomical waste is thrown in yellow bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans12: e.target.value }) }} name='ans12' value="Q.12 b" /><span className='px-[10px]'>Blue bag waste is disposed in landfill</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans12: e.target.value }) }} name='ans12' value="Q.12 c" /> <span className='px-[10px]'>Incineration ash is discarded in black bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans12: e.target.value }) }} name='ans12' value="Q.12 d" /><span className='px-[10px]'>Material in red bag could be a source of contamination</span></li>
                         </ul>
                     </div>
 
@@ -255,10 +255,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>13.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Plastic cover of syringes should be disposed in </div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} value="Q.13 a" /><span className='px-[10px]'> Red bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} value="Q.13 b" /><span className='px-[10px]'>Black bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} value="Q.13 c" /> <span className='px-[10px]'>Yellow bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans11: e.target.value }) }} value="Q.13 d" /><span className='px-[10px]'>Blue bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.13 a" /><span className='px-[10px]'> Red bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.13 b" /><span className='px-[10px]'>Black bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.13 c" /> <span className='px-[10px]'>Yellow bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans13: e.target.value }) }} name='ans13' value="Q.13 d" /><span className='px-[10px]'>Blue bag</span></li>
                         </ul>
                     </div>
 
@@ -266,10 +266,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>14.</code> <input className='bg-transparent w-full font-bold hidden' type="text" name="ques19" />Waste sharps should be disposed in?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} value="Q.14 a" /><span className='px-[10px]'>Red bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} value="Q.14 b" /><span className='px-[10px]'>Black bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} value="Q.14 c" /> <span className='px-[10px]'>Yellow bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} value="Q.14 d" /><span className='px-[10px]'>Blue bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} name='ans14' value="Q.14 a" /><span className='px-[10px]'>Red bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} name='ans14' value="Q.14 b" /><span className='px-[10px]'>Black bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} name='ans14' value="Q.14 c" /> <span className='px-[10px]'>Yellow bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans14: e.target.value }) }} name='ans14' value="Q.14 d" /><span className='px-[10px]'>Blue bag</span></li>
 
                         </ul>
                     </div>
@@ -279,10 +279,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>15.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Urine bags and catheters biomedical waste are disposed in?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} value="Q.15 a" /><span className='px-[10px]'>Yellow bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} value="Q.15 b" /><span className='px-[10px]'>White container</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} value="Q.15 c" /> <span className='px-[10px]'>Red bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} value="Q.16 d" /><span className='px-[10px]'>Blue bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans15: e.target.value }) }} name='ans15' value="Q.15 a" /><span className='px-[10px]'>Yellow bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans15: e.target.value }) }} name='ans15' value="Q.15 b" /><span className='px-[10px]'>White container</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans15: e.target.value }) }} name='ans15' value="Q.15 c" /> <span className='px-[10px]'>Red bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans15: e.target.value }) }} name='ans15' value="Q.16 d" /><span className='px-[10px]'>Blue bag</span></li>
                         </ul>
                     </div>
 
@@ -290,10 +290,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>16.</code> <input className='bg-transparent w-full font-bold hidden' type="text" /> Following blood transfusion, the blood bags are disposed in which colour coded bags?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} value="Q.16 a" /><span className='px-[10px]'>Red</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} value="Q.16 b" /><span className='px-[10px]'>Blue</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} value="Q.16 c" /> <span className='px-[10px]'>Yellow</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} value="Q.16 d" /><span className='px-[10px]'>White</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} name='ans16' value="Q.16 a" /><span className='px-[10px]'>Red</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} name='ans16' value="Q.16 b" /><span className='px-[10px]'>Blue</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} name='ans16' value="Q.16 c" /> <span className='px-[10px]'>Yellow</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} name='ans16' value="Q.16 d" /><span className='px-[10px]'>White</span></li>
                         </ul>
                     </div>
 
@@ -304,10 +304,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>17.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Metallic body implants should be disposed in?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} value="Q.17 a" /><span className='px-[10px]'>Cadmium free red colour bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} value="Q.17 b" /><span className='px-[10px]'>Can be disposed of with general waste</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} value="Q.17 c" /> <span className='px-[10px]'>Puncture proof, leak proof box with the blue colour marking</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} value="Q.17 d" /><span className='px-[10px]'>Puncture proof leak proof container</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans17: e.target.value }) }} name='ans17' value="Q.17 a" /><span className='px-[10px]'>Cadmium free red colour bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans17: e.target.value }) }} name='ans17' value="Q.17 b" /><span className='px-[10px]'>Can be disposed of with general waste</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans17: e.target.value }) }} name='ans17' value="Q.17 c" /> <span className='px-[10px]'>Puncture proof, leak proof box with the blue colour marking</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans17: e.target.value }) }} name='ans17' value="Q.17 d" /><span className='px-[10px]'>Puncture proof leak proof container</span></li>
 
                         </ul>
                     </div>
@@ -319,10 +319,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>18.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Incineration is not done for?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.18 a" /><span className='px-[10px]'>Cytotoxic waste</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.18 b" /><span className='px-[10px]'>Waste sharps</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.18 c" /> <span className='px-[10px]'>Human anatomical waste</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.18 d" /><span className='px-[10px]'>Cotton contaminated by blood</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans18: e.target.value }) }} name='ans18' value="Q.18 a" /><span className='px-[10px]'>Cytotoxic waste</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans18: e.target.value }) }} name='ans18' value="Q.18 b" /><span className='px-[10px]'>Waste sharps</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans18: e.target.value }) }} name='ans18' value="Q.18 c" /> <span className='px-[10px]'>Human anatomical waste</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans18: e.target.value }) }} name='ans18' value="Q.18 d" /><span className='px-[10px]'>Cotton contaminated by blood</span></li>
                         </ul>
                     </div>
 
@@ -331,10 +331,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>19.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Final disposal of placenta after deliveryis done in</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.19 a" /><span className='px-[10px]'>In blue bag</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.19 b" /><span className='px-[10px]'>Autoclaving</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.19 c" /> <span className='px-[10px]'>Incineration</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} value="Q.19 d" /><span className='px-[10px]'>Microwaving</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} name='ans19' value="Q.19 a" /><span className='px-[10px]'>In blue bag</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} name='ans19' value="Q.19 b" /><span className='px-[10px]'>Autoclaving</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} name='ans19' value="Q.19 c" /> <span className='px-[10px]'>Incineration</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans19: e.target.value }) }} name='ans19' value="Q.19 d" /><span className='px-[10px]'>Microwaving</span></li>
                         </ul>
                     </div>
 
@@ -342,10 +342,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>20.</code> <input className='bg-transparent w-full font-bold hidden' type="text" name="ques25" defaultValue="Q.25 Hospital dressings are destroyed by?" /> Hospital dressings are destroyed by?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} value="Q.20 a" /><span className='px-[10px]'>Burying</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} value="Q.20 b" /><span className='px-[10px]'>Dumping</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} value="Q.20 c" /> <span className='px-[10px]'>Boiling</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} value="Q.20 d" /><span className='px-[10px]'>Burning</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} name='ans20' value="Q.20 a" /><span className='px-[10px]'>Burying</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} name='ans20' value="Q.20 b" /><span className='px-[10px]'>Dumping</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} name='ans20' value="Q.20 c" /> <span className='px-[10px]'>Boiling</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans20: e.target.value }) }} name='ans20' value="Q.20 d" /><span className='px-[10px]'>Burning</span></li>
                         </ul>
                     </div>
 
@@ -353,10 +353,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>21.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Disposal of expired and cytotoxic drugs is</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans27' value="Q.21 a" /><span className='px-[10px]'>Separated landfill disposal</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans27' value="Q.21 b" /><span className='px-[10px]'>Municipal waste disposal </span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans27' value="Q.21 c" /> <span className='px-[10px]'>Autoclaving</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans27' value="Q.21 d" /><span className='px-[10px]'>Chemical treatment</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} name='ans21' value="Q.21 a" /><span className='px-[10px]'>Separated landfill disposal</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} name='ans21' value="Q.21 b" /><span className='px-[10px]'>Municipal waste disposal </span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} name='ans21' value="Q.21 c" /> <span className='px-[10px]'>Autoclaving</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans21: e.target.value }) }} name='ans21' value="Q.21 d" /><span className='px-[10px]'>Chemical treatment</span></li>
                         </ul>
                     </div>
 
@@ -366,20 +366,20 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>22.</code> <input className='bg-transparent w-full font-bold hidden' type="text" /> Which of the following category of waste are treated by autoclaving and micro-waving?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.22 a" /><span className='px-[10px]'>Placenta, Organs, Blood bags</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.22 b" /><span className='px-[10px]'> Catheter, Urine bags, Gloves</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.22 c" /> <span className='px-[10px]'> Anti-neoplastic drugs and expired drugs</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.22 d" /><span className='px-[10px]'>Culture plates, slides, tubes</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} name='ans22' value="Q.22 a" /><span className='px-[10px]'>Placenta, Organs, Blood bags</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} name='ans22' value="Q.22 b" /><span className='px-[10px]'> Catheter, Urine bags, Gloves</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} name='ans22' value="Q.22 c" /> <span className='px-[10px]'> Anti-neoplastic drugs and expired drugs</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans22: e.target.value }) }} name='ans22' value="Q.22 d" /><span className='px-[10px]'>Culture plates, slides, tubes</span></li>
                         </ul>
                     </div>
 
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>23.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Safe disposal of mercury is by?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.23 a" /><span className='px-[10px]'>Collect carefully and recycle</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.23 b" /><span className='px-[10px]'>Controlled combustion</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.23 c" /> <span className='px-[10px]'>Chemical treatment</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.23 d" /><span className='px-[10px]'>Deep burial</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} name='ans23' value="Q.23 a" /><span className='px-[10px]'>Collect carefully and recycle</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} name='ans23' value="Q.23 b" /><span className='px-[10px]'>Controlled combustion</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} name='ans23' value="Q.23 c" /> <span className='px-[10px]'>Chemical treatment</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans23: e.target.value }) }} name='ans23' value="Q.23 d" /><span className='px-[10px]'>Deep burial</span></li>
 
                         </ul>
                     </div>
@@ -392,10 +392,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>24.</code> <input className='bg-transparent w-full font-bold hidden' type="text" /> When disposing plastic bags tubing, syringes and gloves used for administrating anti-neoplastic drugs, which of the following nursing intervention should be implemented?</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.24 a" /><span className='px-[10px]'>Avoiding contact with the equipment by allowing house keeping</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.24 b" /><span className='px-[10px]'> Discarding all equipment in a container marked isolation</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.24 c" /><span className='px-[10px]'>Dispose all equipment in a container marked bio health hazards</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.24 d" /><span className='px-[10px]'> Disposing all equipment in a regular trash receptacle</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans24: e.target.value }) }} name='ans24' value="Q.24 a" /><span className='px-[10px]'>Avoiding contact with the equipment by allowing house keeping</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans24: e.target.value }) }} name='ans24' value="Q.24 b" /><span className='px-[10px]'> Discarding all equipment in a container marked isolation</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans24: e.target.value }) }} name='ans24' value="Q.24 c" /><span className='px-[10px]'>Dispose all equipment in a container marked bio health hazards</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans24: e.target.value }) }} name='ans24' value="Q.24 d" /><span className='px-[10px]'> Disposing all equipment in a regular trash receptacle</span></li>
                         </ul>
                     </div>
 
@@ -404,10 +404,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>25.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Which vaccination should be given to the workers working with biomedical waste</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.25 a" /><span className='px-[10px]'>HbsAg</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.25 b" /><span className='px-[10px]'>Tetanus</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.25 c" /><span className='px-[10px]'>Both (a) and (b)</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.25 d" /><span className='px-[10px]'>Rabies</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} name='ans25' value="Q.25 a" /><span className='px-[10px]'>HbsAg</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} name='ans25' value="Q.25 b" /><span className='px-[10px]'>Tetanus</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} name='ans25' value="Q.25 c" /><span className='px-[10px]'>Both (a) and (b)</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans25: e.target.value }) }} name='ans25' value="Q.25 d" /><span className='px-[10px]'>Rabies</span></li>
                         </ul>
 
                     </div>
@@ -416,10 +416,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>26.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />What are the steps to be taken if you are exposed with blood or other infectious materials</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.26 a" /><span className='px-[10px]'>Needle sticks or sharp injuries should be immediately washed with soap and water</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.26 b" /><span className='px-[10px]'>Irrigate eyes with an eye wash for 10-15 minutes</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.26 c" /><span className='px-[10px]'>Report the incident to the supervisor and seek medical treatment</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.26 d" /><span className='px-[10px]'>All of the above</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans26' value="Q.26 a" /><span className='px-[10px]'>Needle sticks or sharp injuries should be immediately washed with soap and water</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans26' value="Q.26 b" /><span className='px-[10px]'>Irrigate eyes with an eye wash for 10-15 minutes</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans26' value="Q.26 c" /><span className='px-[10px]'>Report the incident to the supervisor and seek medical treatment</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans26: e.target.value }) }} name='ans26' value="Q.26 d" /><span className='px-[10px]'>All of the above</span></li>
                         </ul>
 
                     </div>
@@ -428,10 +428,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>27.</code> <input className='bg-transparent w-full font-bold hidden' type="text" /> Blood spills in Indian Hospitals are disinfected by compounds: </div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} value="Q.27 a" /><span className='px-[10px]'>Quaternary ammonium</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} value="Q.27 b" /><span className='px-[10px]'>Phenol based</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} value="Q.27 c" /> <span className='px-[10px]'>Chlorine based</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans16: e.target.value }) }} value="Q.27 d" /><span className='px-[10px]'> Alcohol based</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.27 a" /><span className='px-[10px]'>Quaternary ammonium</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.27 b" /><span className='px-[10px]'>Phenol based</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.27 c" /> <span className='px-[10px]'>Chlorine based</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans27: e.target.value }) }} name='ans27' value="Q.27 d" /><span className='px-[10px]'> Alcohol based</span></li>
                         </ul>
                     </div>
 
@@ -443,10 +443,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>28.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />An HIV positive man is brought to you following an accident. How would you discard his blood-soaked dressing material.</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.28 a" /><span className='px-[10px]'>Pour 1% hypochlorite on dressing material and send for incineration</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.28 b" /><span className='px-[10px]'>Pour 5% hypochlorite on dressing material and send for incineration</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.28 c" /><span className='px-[10px]'> Put the dressing material directly in an appropriate bag and send for incineration</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.28 d" /><span className='px-[10px]'>Pour 10% hypochlorite on dressing material and send for incineration</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.28 a" /><span className='px-[10px]'>Pour 1% hypochlorite on dressing material and send for incineration</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.28 b" /><span className='px-[10px]'>Pour 5% hypochlorite on dressing material and send for incineration</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.28 c" /><span className='px-[10px]'> Put the dressing material directly in an appropriate bag and send for incineration</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans28: e.target.value }) }} name='ans28' value="Q.28 d" /><span className='px-[10px]'>Pour 10% hypochlorite on dressing material and send for incineration</span></li>
                         </ul>
                     </div>
 
@@ -454,10 +454,10 @@ const Form = () => {
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] w-[100%] sm:w-[70%] md:w-[70%]  rounded-[10px] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] w-full font-bold'><code>29.</code> <input className='bg-transparent w-full font-bold hidden' type="text" />Best disinfectant of cholera stool is:</div>
                         <ul className='leading-8'>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.29 a" /><span className='px-[10px]'>Bleaching powder</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.29 b" /><span className='px-[10px]'>Lime</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.29 c" /><span className='px-[10px]'>Phenol</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} value="Q.29 d" /><span className='px-[10px]'>Cresol</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} name='29' value="Q.29 a" /><span className='px-[10px]'>Bleaching powder</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} name='29' value="Q.29 b" /><span className='px-[10px]'>Lime</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} name='29' value="Q.29 c" /><span className='px-[10px]'>Phenol</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans29: e.target.value }) }} name='29' value="Q.29 d" /><span className='px-[10px]'>Cresol</span></li>
                         </ul>
                     </div>
 
