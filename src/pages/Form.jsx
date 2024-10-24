@@ -14,39 +14,195 @@ const Form = () => {
     const [formdata, setformdata] = useState({})
     const addData = async (e) => {
         e.preventDefault()
-        if (!formdata.name) return Swal.fire("please enter your name")
-        if (!formdata.designation) return Swal.fire("please enter designation")
-        if (!formdata.ward) return Swal.fire("please enter ward number")
-        if (!formdata.ans2) return Swal.fire("please check the question no.2")
-        if (!formdata.ans3) return Swal.fire("please check the question no.3")
-        if (!formdata.ans4) return Swal.fire("please check the question no.4")
-        if (!formdata.ans5) return Swal.fire("please check the question no.5")
-        if (!formdata.ans6) return Swal.fire("please check the question no.6")
-        if (!formdata.ans7) return Swal.fire("please check the question no.7")
-        if (!formdata.ans8) return Swal.fire("please check the question no.8")
-        if (!formdata.ans9) return Swal.fire("please check the question no.9")
-        if (!formdata.ans10) return Swal.fire("please check the question no.10")
-        if (!formdata.ans11) return Swal.fire("please check the question no.11")
-        if (!formdata.ans12) return Swal.fire("please check the question no.12")
-        if (!formdata.ans13) return Swal.fire("please check the question no.13")
-        if (!formdata.ans14) return Swal.fire("please check the question no.14")
-        if (!formdata.ans15) return Swal.fire("please check the question no.15")
-        if (!formdata.ans16) return Swal.fire("please check the question no.16")
-        if (!formdata.ans17) return Swal.fire("please check the question no.17")
-        if (!formdata.ans18) return Swal.fire("please check the question no.18")
-        if (!formdata.ans19) return Swal.fire("please check the question no.19")
-        if (!formdata.ans20) return Swal.fire("please check the question no.20")
-        if (!formdata.ans21) return Swal.fire("please check the question no.21")
-        if (!formdata.ans22) return Swal.fire("please check the question no.22")
-        if (!formdata.ans23) return Swal.fire("please check the question no.23")
-        if (!formdata.ans24) return Swal.fire("please check the question no.24")
-        if (!formdata.ans25) return Swal.fire("please check the question no.25")
-        if (!formdata.ans26) return Swal.fire("please check the question no.26")
-        if (!formdata.ans27) return Swal.fire("please check the question no.27")
-        if (!formdata.ans28) return Swal.fire("please check the question no.28")
-        if (!formdata.ans29) return Swal.fire("please check the question no.29")
+        if (!formdata.name) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Name!"
+        });
+
+        if (!formdata.designation) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Designation!"
+        });
+        if (!formdata.ward) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ward!"
+        });
+        if (!formdata.ans2) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans2!"
+        });
+        if (!formdata.ans3) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans3!"
+        });
+        if (!formdata.ans4) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans4!"
+        });
+        if (!formdata.ans5) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans5!"
+        });
+        if (!formdata.ans6) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans6!"
+        });
+        if (!formdata.ans7) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans7!"
+        });
+        if (!formdata.ans8) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans8"
+        });
+        if (!formdata.ans9) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans9!"
+        });
+        if (!formdata.ans10) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans10!"
+        });
+        if (!formdata.ans11) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans11!"
+        });
+        if (!formdata.ans12) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans12!"
+        });
+        if (!formdata.ans13) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans13!"
+        });
+        if (!formdata.ans14) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans14!"
+        });
+        if (!formdata.ans15) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans15!"
+        });
+        if (!formdata.ans16) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans16!"
+        });
+        if (!formdata.ans17) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans17!"
+        });
+        if (!formdata.ans18) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans18!"
+        });
+        if (!formdata.ans19) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans19!"
+        });
+        if (!formdata.ans20) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans20!"
+        });
+        if (!formdata.ans21) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans21!"
+        });
+        if (!formdata.ans22) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans22!"
+        });
+        if (!formdata.ans23) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans23!"
+        });
+        if (!formdata.ans24) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans24!"
+        });
+        if (!formdata.ans25) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans25!"
+        });
+        if (!formdata.ans26) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans26!"
+        });
+        if (!formdata.ans27) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans27!"
+        });
+        if (!formdata.ans28) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans28!"
+        });
+        if (!formdata.ans29) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans29!"
+        });
         const cookitdata = Cookies.get("staff")
-        if (cookitdata) return Swal.fire("You have already submitted you responde")
+        if (cookitdata) return Swal.fire("You've already submitted you Response!")
         if (!cookitdata) {
             try {
                 const responce = await axios.post(`https://reaserch-backend-3.onrender.com/api/formdata/form`, formdata)
@@ -61,7 +217,7 @@ const Form = () => {
         }
 
     }
-console.log(formdata)
+    console.log(formdata)
 
     return (
         <>
@@ -98,7 +254,7 @@ console.log(formdata)
 
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] rounded-[10px] w-[100%] sm:w-[70%] md:w-[70%] bg-slate-200'>
                         <div className='flex text-[18px] sm:text-[22px] font-bold'><code>1.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques1" defaultValue="Q.1 What is yout age?" />What is yout age?</div>
-                        <ul className='list-disc'>
+                        <ul className='list-none'>
                             <li>
                                 <input className='mt-[10px] ms-[20px] block bg-transparent border-[1px] border-black rounded-[5px] text-center'
                                     placeholder='Mention you age'
