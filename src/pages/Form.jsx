@@ -21,186 +21,186 @@ const Form = () => {
             text:"Please enter your Name!"
         });
 
-        // if (!formdata.designation) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Designation!"
-        // });
-        // if (!formdata.ward) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ward!"
-        // });
-        // if (!formdata.ans2) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans2!"
-        // });
-        // if (!formdata.ans3) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans3!"
-        // });
-        // if (!formdata.ans4) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans4!"
-        // });
-        // if (!formdata.ans5) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans5!"
-        // });
-        // if (!formdata.ans6) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans6!"
-        // });
-        // if (!formdata.ans7) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans7!"
-        // });
-        // if (!formdata.ans8) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans8"
-        // });
-        // if (!formdata.ans9) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans9!"
-        // });
-        // if (!formdata.ans10) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans10!"
-        // });
-        // if (!formdata.ans11) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans11!"
-        // });
-        // if (!formdata.ans12) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans12!"
-        // });
-        // if (!formdata.ans13) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans13!"
-        // });
-        // if (!formdata.ans14) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans14!"
-        // });
-        // if (!formdata.ans15) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans15!"
-        // });
-        // if (!formdata.ans16) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans16!"
-        // });
-        // if (!formdata.ans17) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans17!"
-        // });
-        // if (!formdata.ans18) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans18!"
-        // });
-        // if (!formdata.ans19) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans19!"
-        // });
-        // if (!formdata.ans20) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans20!"
-        // });
-        // if (!formdata.ans21) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans21!"
-        // });
-        // if (!formdata.ans22) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans22!"
-        // });
-        // if (!formdata.ans23) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans23!"
-        // });
-        // if (!formdata.ans24) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans24!"
-        // });
-        // if (!formdata.ans25) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans25!"
-        // });
-        // if (!formdata.ans26) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans26!"
-        // });
-        // if (!formdata.ans27) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans27!"
-        // });
-        // if (!formdata.ans28) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans28!"
-        // });
-        // if (!formdata.ans29) return Swal.fire({
-        //     imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
-        //     position: "top-center",
-        //     width: '300px',
-        //     text:"Please enter your Ans29!"
-        // });
+        if (!formdata.designation) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Designation!"
+        });
+        if (!formdata.ward) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ward!"
+        });
+        if (!formdata.ans2) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans2!"
+        });
+        if (!formdata.ans3) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans3!"
+        });
+        if (!formdata.ans4) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans4!"
+        });
+        if (!formdata.ans5) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans5!"
+        });
+        if (!formdata.ans6) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans6!"
+        });
+        if (!formdata.ans7) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans7!"
+        });
+        if (!formdata.ans8) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans8"
+        });
+        if (!formdata.ans9) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans9!"
+        });
+        if (!formdata.ans10) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans10!"
+        });
+        if (!formdata.ans11) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans11!"
+        });
+        if (!formdata.ans12) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans12!"
+        });
+        if (!formdata.ans13) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans13!"
+        });
+        if (!formdata.ans14) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans14!"
+        });
+        if (!formdata.ans15) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans15!"
+        });
+        if (!formdata.ans16) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans16!"
+        });
+        if (!formdata.ans17) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans17!"
+        });
+        if (!formdata.ans18) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans18!"
+        });
+        if (!formdata.ans19) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans19!"
+        });
+        if (!formdata.ans20) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans20!"
+        });
+        if (!formdata.ans21) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans21!"
+        });
+        if (!formdata.ans22) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans22!"
+        });
+        if (!formdata.ans23) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans23!"
+        });
+        if (!formdata.ans24) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans24!"
+        });
+        if (!formdata.ans25) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans25!"
+        });
+        if (!formdata.ans26) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans26!"
+        });
+        if (!formdata.ans27) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans27!"
+        });
+        if (!formdata.ans28) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans28!"
+        });
+        if (!formdata.ans29) return Swal.fire({
+            imageUrl: 'https://cdn.svgator.com/images/2024/04/electrocuted-caveman-animation-404-error-page.gif', // Add your image URL
+            position: "top-center",
+            width: '300px',
+            text:"Please enter your Ans29!"
+        });
         const cookitdata = Cookies.get("staff")
         if (cookitdata) return Swal.fire("You've already submitted you Response!")
         if (!cookitdata) {
@@ -226,7 +226,7 @@ const Form = () => {
                     <img className='absolute top-2 right-2 w-[30px] sm:w-[50px] md:w-[70px] ld:w-[100px]' src={hsptlsign} alt="" />
                     <h2 className='text-center font-bold text-[20px] sm:text-[23px] md:text-[27px] py-[10px]'>GOVT. COLLEGE OF NURSING, JODHPUR </h2>
                     <p className='text-center text-[18px]'>RAJASTHAN UNIVERSITY OF HEALTH SCIENCES, JAIPUR, RAJASTHAN </p>
-                    <div className='text-center pt-[10px]'><b><u>QUESTIONNARE</u></b></div>
+                    <div className='text-center pt-[10px]'><b><u>QUESTIONNAIRE</u></b></div>
                     <p className="text-center sm:px-[30px] md:px-[40px] lg:-[100px] xl:px-[200px] py-[10px] text-[12px] sm:text-[15px]">A DESCRIPTIVE STUDY TO ASSESS THE KNOWLEDGE REGARDING BIOMEDICAL WASTE
                         MANAGEMENT AMONG STAFF NURSES OF JANANA WING, MATHURA DAS MATHUR
                         HOSPITAL, JODHPUR (RAJ.) </p>
