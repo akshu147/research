@@ -267,17 +267,17 @@ const Form = () => {
 
 
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] rounded-[10px] w-[100%] sm:w-[70%] md:w-[70%] bg-slate-200'>
-                        <div className='flex text-[18px] sm:text-[22px] font-bold'><code>2.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques2" defaultValue="Q.2 What is your gender?" />What is your gender?</div>
+                        <div className='flex text-[18px] sm:text-[22px] font-bold'><code>2.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques2"/>What is your gender?</div>
                         <ul className='leading-8'>
-                            <li><input value="Male" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Male</span></li>
-                            <li><input value="Female" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Female</span></li>
-                            <li><input value="Transgender" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Others</span></li>
+                            <li><input value="Q.2 a" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Male</span></li>
+                            <li><input value="Q.2 b" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Female</span></li>
+                            <li><input value="Q.3 c" onChange={(e) => { setformdata({ ...formdata, ans2: e.target.value }) }} type="radio" name='ans2' /><span className='px-[10px]'>Others</span></li>
                         </ul>
                     </div>
 
 
                     <div className='border-[1px] border-black p-[10px_20px] mt-[10px] rounded-[10px] w-[100%] sm:w-[70%] md:w-[70%] bg-slate-200'>
-                        <div className='flex text-[18px] sm:text-[22px] font-bold'><code>3.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques3" defaultValue="Q.3 What is your educational qualification?" />What is your educational qualification?</div>
+                        <div className='flex text-[18px] sm:text-[22px] font-bold'><code>3.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques3"/>What is your educational qualification?</div>
                         <ul className='leading-8'>
                             <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans3: e.target.value }) }} name='ans3' value="Q.3 a " /><span className='px-[10px]'>GNM</span></li>
                             <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans3: e.target.value }) }} name='ans3' value="Q.3 b " /><span className='px-[10px]'>Post Basic Nursing</span></li>
