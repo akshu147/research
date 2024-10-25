@@ -622,7 +622,7 @@ const Form = () => {
 
 
                     <fieldset className='border-[3px] border-black p-[10px_20px] sm:p-[10px_50px] rounded-[10px] bg-black text-white m-[20px_10px] sm:m-[20px_20px] text-[15px] sm:text-[20px]'>
-                        <legend className='bg-black text-white p-[7px_10px] rounded-[10px]'>Lorem</legend>
+                        <legend className='bg-black text-white p-[7px_10px] rounded-[10px] text-[15px]'>GOVT. COLLEGE OF NURSING, JODHPUR</legend>
                         <p className='leading-10'>I (respondent’s name)____________________ hereby give my permission to MUSKAN, VIVEK,
                             BHARAT, YASHSHVINI,  ZEESHAN to allow me to respond to questionnaire and quote my responses
                             in scholarly research project. I understand that their work is for academic purposes.
