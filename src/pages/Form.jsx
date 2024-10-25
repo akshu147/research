@@ -302,7 +302,7 @@ const Form = () => {
                         <div className='flex text-[18px] sm:text-[22px] font-bold'><code>5.</code> <input className='bg-transparent w-[100%] font-bold hidden' type="text" name="ques5" defaultValue="Q.5 Have you attended any program related to biomedical waste management previously?  " />Have you attended any program related to biomedical waste management previously? </div>
                         <ul className='leading-8'>
                             <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans5: e.target.value }) }} name='ans5' value="Q.5 a" /><span className='px-[10px]'>YES</span></li>
-                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans5: e.target.value }) }} name='ans5' value="Q.6 b" /><span className='px-[10px]'>NO</span></li>
+                            <li><input type="radio" onChange={(e) => { setformdata({ ...formdata, ans5: e.target.value }) }} name='ans5' value="Q.5 b" /><span className='px-[10px]'>NO</span></li>
 
                         </ul>
                     </div>
